@@ -1,0 +1,19 @@
+header {
+	background: #363636;
+	color: #fff;
+	padding: 10px;
+	font-family: arial;
+}
+
+#underscore {
+  color: white;
+  animation: blinkz 1.2s infinite;
+}
+
+@keyframes blinkz {
+    0% {color: white;}
+    49% {color: white;}
+    50% {color: #363636;}
+    99% {color: #363636;}
+    100% {color: white;}
+}

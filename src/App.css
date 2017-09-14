@@ -1,0 +1,38 @@
+/*#underscore {
+  color: white;
+  animation: blinkz 1.2s infinite;
+}
+
+@keyframes blinkz {
+    0% {color: white;}
+    49% {color: white;}
+    50% {color: rgb(0,189,250);}
+    99% {color: rgb(0,189,250);}
+    100% {color: white;}
+}*/
+
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: rgb(0,189,250);
+  height: 50px;
+  padding: 20px;
+  color: white;
+  font-family: arial, sans-serif;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
