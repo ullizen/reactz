@@ -11,6 +11,10 @@
     100% {color: white;}
 }*/
 
+footer {
+  background: #ddd;
+}
+
 .App {
   text-align: left;
 }
