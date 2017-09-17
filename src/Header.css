@@ -5,6 +5,29 @@ header {
 	font-family: arial;
 }
 
+input {
+	background: #363636;
+	color: #fff;
+	padding: 10px;
+	font-family: arial;
+  	display: inline-block;
+  	/*background: red;*/
+  	font-size: 24px;
+  	font-weight: bold;
+    border: none;
+    width: 200px;
+
+}
+
+input:focus {
+  outline: none;
+  border: none;
+}
+
+#title {
+  display: inline-block;
+}
+
 #underscore {
   color: white;
   animation: blinkz 1.2s infinite;
