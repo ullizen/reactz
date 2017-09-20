@@ -3,3 +3,13 @@ body {
   padding: 0;
   font-family: 'Merriweather', serif;
 }
+
+#main {
+	height: 600px;
+	/*background: red;*/
+}
+
+footer {
+	background: #eee;
+	height: 100px;
+}

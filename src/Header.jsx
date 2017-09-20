@@ -8,6 +8,14 @@ class Header extends Component {
 
       <header>
       <Title />
+      	<nav>
+      		<a href="/">Home</a>
+      		<a href="/">Customers</a>
+      		<a href="/">Projects</a>
+      		<div id="search">
+      		<input type="text"></input> <i className="fa fa-search"></i>
+      		</div>
+      	</nav>
       </header>
       
       )

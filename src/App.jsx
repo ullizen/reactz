@@ -27,6 +27,9 @@ class App extends Component {
     return (
       <div className="App">
       <Header />
+
+      <div id="main">
+      </div>
         {/*<div className="App-header">
           <h2>Wiki leaks_ {randnum} {this.state.name}</h2>
         </div>
@@ -38,6 +41,7 @@ class App extends Component {
         <Footer />
         <Footer />
         <Footer /> */}
+        <Footer />
       </div>
     );
   }
